@@ -78,8 +78,9 @@ const Collection = ({
 
   const location = useLocation()
   let queryData = location.pathname.split('collection/')
+  let urlPath = queryData[1]
 
-  console.log("location",queryData)
+  console.log("location",urlPath)
 
   function handlePageClick({ selected: selectedPage }) {
     setCurrentPage(selectedPage)
