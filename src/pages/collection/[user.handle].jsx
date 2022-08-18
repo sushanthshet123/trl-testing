@@ -151,6 +151,7 @@ const Collection = ({
 
   return (
     <Layout>
+      <h1></h1>
       {/* <MobbileNavbar /> */}
       {loading == true ?
       <Loader /> :
