@@ -1,0 +1,71 @@
+.container {
+  background-image: url("/banner-image.jpg");
+  top:0;
+  width: 100%;
+  position: relative;
+  height:100vh;
+  margin-top:-104px;
+  background-size: cover;
+  background-color: #EAE7E7;
+}
+.bannerText{
+  position: absolute;
+  top:55%;
+  right:5%;
+}
+.vedioBanner{
+  background-image: url("/home/vedio-banner.jpg");
+  height:130vh;
+  background-size: cover;
+}
+.backgroundVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.fontSize{
+  font-size:3.8rem;
+}
+.backgroundClass{
+  background-color: #EAE7E7;
+}
+
+.intro {
+  padding-bottom: var(--space-lg);
+  line-height: var(--dense);
+  font-size: var(--text-display);
+  color: var(--text-color-secondary);
+}
+
+.callOut {
+  padding-bottom: var(--space-lg);
+  font-size: var(--text-display);
+  font-weight: var(--bold);
+  line-height: var(--dense);
+  line-height: var(--dense);
+  letter-spacing: var(--tight);
+  color: var(--text-color-secondary);
+}
+
+.callOut > strong {
+  text-decoration: underline;
+}
+
+.callToAction {
+  font-size: var(--text-prose);
+  line-height: var(--dense);
+  line-height: var(--dense);
+  letter-spacing: var(--tight);
+  color: var(--text-color-secondary);
+}
+
+.deployButton {
+  margin-top: var(--space-lg);
+}

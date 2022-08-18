@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 19" width="10" height="19">
+	<title>remove-icon-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 20px;fill: #000000;font-weight: bold;font-family: "Segoe UI" } 
+	</style>
+	<text id="X" style="transform: matrix(.714,0,0,.704,0,15.481)" >
+		<tspan x="0" y="0" class="t0">X
+</tspan>
+	</text>
+</svg>

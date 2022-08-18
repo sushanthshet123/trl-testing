@@ -1,0 +1,31 @@
+.fontSize{
+    font-size: 4rem;
+}
+
+@media (max-width:768px) {
+    .fontSize{
+        font-size: 3.2rem;
+    }
+    
+  }
+.fontSizeText{
+    font-size:1rem
+}
+.negativeMargin{
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.ZIndex{
+    z-index: 100;
+}
+.measureShirt{
+    background-image: url("/about/shirts.jpg");
+    height:100vh;
+    background-size: cover;
+}
+.TextColor{
+    color:#C61B2A;
+}
+.imageWidth{
+    width:70%;
+}

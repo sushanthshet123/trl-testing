@@ -1,0 +1,57 @@
+
+/* slider css start */
+.sliderHeight{
+    height:1000px;
+  }
+
+  .sliderWidth{
+    max-width:1800px;
+  }
+  
+  .imageThree{
+    top:0%;
+    left:4%;
+    width:330px;
+    height:auto;
+  }
+  
+  .imageTwo{
+    top:55%;
+    left:10%;
+    width:330px;
+    height:auto;
+  }
+  
+  
+  .imageFour{
+    top:25%;
+    left:38%;
+    width:330px;
+    height:auto;
+  }
+  
+  .imageOne{
+    left:70%;
+    top:60%;
+    width:330px;
+    height:auto;
+  }
+
+  .imageFive{
+    left:74%;
+    top:5%;
+    width:330px;
+    height:auto;
+  }
+  
+  .sliderText{
+    top:0%;
+    left:38%;
+    z-index: 10!important;
+  }
+  
+  .sliderTextFont{
+    font-size:3.3rem;
+  }
+  
+  /* slider css end */

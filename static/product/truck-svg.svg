@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 30" width="44" height="30">
+	<title>truck-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h43.67v29.6h-43.67z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #707070;stroke-linecap: round;stroke-linejoin: round;stroke-width: .9 } 
+	</style>
+	<g id="Clip-Path: Group_11" clip-path="url(#cp1)">
+		<g id="Group_11">
+			<path id="Path_524" class="s0" d="m25 24.5v-19.4h12.8q0.2 0 0.4 0.1 0.1 0 0.3 0.1 0.1 0.1 0.2 0.2 0.1 0.1 0.2 0.3l3.9 7.7q0 0 0 0.1 0 0.1 0 0.1 0.1 0.1 0.1 0.2 0 0 0 0.1v9.3q0 0.2-0.1 0.4-0.1 0.3-0.3 0.4-0.1 0.2-0.3 0.3-0.3 0.1-0.5 0.1h-3"/>
+			<path id="Path_525" class="s0" d="m29.2 14.8v-6.5h7.3l3.2 6.5z"/>
+			<path id="Path_526" class="s0" d="m13.4 24.5h15.8"/>
+			<path id="Path_527" class="s0" d="m5 24.5h-4.2v-22q0-0.3 0.1-0.6 0.1-0.3 0.4-0.6 0.2-0.2 0.5-0.4 0.3-0.1 0.7-0.1h20.8q0.3 0 0.6 0.1 0.4 0.2 0.6 0.4 0.2 0.3 0.4 0.6 0.1 0.3 0.1 0.6v4.4"/>
+			<path id="Line_1" class="s0" d="m14.5 20.2h10.5"/>
+			<path id="Line_2" class="s0" d="m0.8 20.2h2.1"/>
+			<ellipse id="Ellipse_1" class="s0" cx="9.2" cy="24.5" rx="4.2" ry="4.3"/>
+			<ellipse id="Ellipse_2" class="s0" cx="34.5" cy="24.5" rx="4.2" ry="4.3"/>
+		</g>
+	</g>
+</svg>

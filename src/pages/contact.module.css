@@ -1,0 +1,18 @@
+.banner{
+    background-image: url("/contact-banner.jpg");
+    height:100vh;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 0;
+}
+
+.font_sm{
+    font-size: 13px;
+}
+
+.margin_sec{
+    margin-top:9rem;
+}
