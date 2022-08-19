@@ -18,7 +18,7 @@ import Loader from '../../components/loader'
 const PER_PAGE = 6
 
 const Collection = ({
-  data: { collectionData, product, productDataSearchFilter },
+  data: { collectionData, product, productDataSearchFilter,productCollection },
 }) => {
   const [currentPage, setCurrentPage] = useState(0)
   const [productLength, setProductLength] = useState(0)
@@ -51,6 +51,8 @@ const Collection = ({
 
   }
 
+  console.log("productCollection",productCollection?.handle)
+
   function handleFeaturedClick() {
     setFilterTags("Solids")
     setPriceFilter(true)
@@ -78,9 +80,10 @@ const Collection = ({
   }
 
   const location = useLocation()
-  let queryData = location.pathname.split('collections/')
+  // let queryData = location.pathname.split('collections/')
+  let queryData = productCollection?.handle
 
-  console.log("location",queryData[1])
+  console.log("location",queryData)
 
   function handlePageClick({ selected: selectedPage }) {
     setCurrentPage(selectedPage)
@@ -91,19 +94,19 @@ const Collection = ({
   useEffect(() => {
     setLoading(true)
     collectionData.nodes.map((user) =>
-      user.handle == queryData[1] ?
+      user.handle == queryData ?
         setProductLength(user.products.length)
         : null
     )
     setCurrentPage(0)
-  }, [queryData[1]])
+  }, [queryData])
 
 
   var i = 1
   useEffect(() => {
     setLoading(true)
     collectionData?.nodes.map((user) =>
-      user.handle == queryData[1]
+      user.handle == queryData
         ? user.products
         .filter(
           filterTags == "Checks"
@@ -115,7 +118,7 @@ const Collection = ({
         : null
     )
     setCurrentPage(0)
-  }, [queryData[1]])
+  }, [queryData])
 
 
   useEffect(() => {
@@ -158,11 +161,11 @@ const Collection = ({
       <Loader /> :
       <div className="mt-5 pt-3">
       <div className="pt-md-5 mt-5 w-100">
-        {collectionData.nodes?.map((user) => (
+        {collectionData?.nodes?.map((user) => (
 
           <>
 
-            {user.handle == queryData[1] ? (
+            {user.handle == queryData ? (
               <div key={user.handle} className="py-4 container">
                 <div className="col-12">
                   <div className="row">
@@ -549,7 +552,7 @@ const Collection = ({
                 {priceFilter == false
                   ? collectionData.nodes?.map((user) => (
                     <>
-                      {user.handle == queryData[1] ? (
+                      {user.handle == queryData ? (
                         <div className="row px-4 px-md-5 pt-3 pb-5 g-md-5">
                           {user.products
                             .sort(
@@ -612,7 +615,7 @@ const Collection = ({
                   ))
                   : collectionData.nodes?.map((user) => (
                     <>
-                      {user.handle == queryData[1] ? (
+                      {user.handle == queryData ? (
                         <div className="row px-4 px-md-5 pt-3 conatiner pb-5">
                           {user.products
                             .filter(
@@ -737,7 +740,41 @@ export default Collection
 
 export const query = graphql`
   query($id: String!,) {
-    
+    productCollection: shopifyCollection(id: { eq: $id }) {
+      title
+      description
+      image {
+        gatsbyImageData
+      }
+      metafields {
+        value
+        namespace
+        description
+        type
+        key
+      }
+      handle
+      products {
+        images {
+          gatsbyImageData
+        }
+        title
+        storefrontId
+        tags
+        collections {
+          title
+        }
+        slug: gatsbyPath(
+          filePath: "/products/{ShopifyProduct.productType}/{ShopifyProduct.handle}"
+        )
+        priceRangeV2 {
+          maxVariantPrice {
+            amount
+          }
+        }
+        handle
+      }
+    }
     collectionData: allShopifyCollection {
       nodes {
         title
@@ -777,13 +814,7 @@ export const query = graphql`
         }
       }
     }
-    productCollection: shopifyCollection(id: { eq: $id }) {
-      title
-      description
-      image {
-        gatsbyImageData
-      }
-    }
+    
     productDataSearchFilter: allShopifyProduct {
       nodes {
         collections {
