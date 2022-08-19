@@ -50,6 +50,7 @@ const Collection = ({
     
 
   }
+
   function handleFeaturedClick() {
     setFilterTags("Solids")
     setPriceFilter(true)
@@ -78,9 +79,8 @@ const Collection = ({
 
   const location = useLocation()
   let queryData = location.pathname.split('collections/')
-  let urlPath = queryData[1]
 
-  console.log("location",urlPath)
+  console.log("location",queryData[1])
 
   function handlePageClick({ selected: selectedPage }) {
     setCurrentPage(selectedPage)
@@ -737,13 +737,7 @@ export default Collection
 
 export const query = graphql`
   query($id: String!,) {
-    productCollection: shopifyCollection(id: { eq: $id }) {
-      title
-      description
-      image {
-        gatsbyImageData
-      }
-    }
+    
     collectionData: allShopifyCollection {
       nodes {
         title
@@ -781,6 +775,13 @@ export const query = graphql`
           }
           handle
         }
+      }
+    }
+    productCollection: shopifyCollection(id: { eq: $id }) {
+      title
+      description
+      image {
+        gatsbyImageData
       }
     }
     productDataSearchFilter: allShopifyProduct {
