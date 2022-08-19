@@ -197,8 +197,9 @@ export default function Product({ data: { product, suggestions, allProducts } })
                         <ImageGallery available={available} images={images} />
                         
                       </div>
-                      {actualPrice[0].compareAtPrice !== null ?
-                        <div className={`${salelock} Aftika_Bold text-center`}>SALE <br /> {(parseInt(sale))}% OFF</div> : null}
+                      {actualPrice[0].compareAtPrice !== null && (parseInt(sale)) > 0 ?
+                      
+                        <div className={`${salelock} Aftika_Bold text-center`}>SALE <br /> {(parseInt(sale)) > 0 ? (parseInt(sale)):null}% OFF</div> : null}
                     </div>
                     {hasMultipleImages && (
                       <div className={scrollForMore} id="instructions">
