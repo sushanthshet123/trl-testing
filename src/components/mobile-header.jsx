@@ -211,7 +211,7 @@ function Navbar() {
                 <ul className="list-unstyled py-4 primary-text py-4">
                   {data.collectionMobile.nodes.map((user) => (
                     <>
-                      <Link to={`/collection/${user.handle}`}>
+                      <Link to={`/collections/${user.handle}`}>
                         <li
                           className="py-3 mx-auto primary_text"
                           style={{ width: "90%", borderBottom: "2px dotted" }}

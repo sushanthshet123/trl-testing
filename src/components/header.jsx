@@ -108,7 +108,7 @@ export function Header({ data }) {
                     {data.collection.nodes?.filter(name => name.title.includes('Shirts')).map((user) => (
                       <>
                         <li className={dropdownwidth}>
-                          <Link className="dropdown-item d-flex"  to={`/collection/${user.handle}`}>
+                          <Link className="dropdown-item d-flex"  to={`/collections/${user.handle}`}>
                             <span>{user.title}</span>
                             <img
                               src="/header/header-dropdown-arrow.svg"
@@ -131,14 +131,14 @@ export function Header({ data }) {
                         <Link
                           className="nav-link active font_smx text-uppercase"
                           aria-current="page"
-                          to={`/collection/${user.handle}`}
+                          to={`/collections/${user.handle}`}
                         >
                           <span style={{ color: "white" }}> {user.title}</span>
                         </Link> :
                         <Link
                           className="nav-link active font_smx text-uppercase"
                           aria-current="page"
-                          to={`/collection/${user.handle}`}
+                          to={`/collections/${user.handle}`}
                         >
                           <span>{user.title}</span>
                         </Link>}

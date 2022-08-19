@@ -114,7 +114,7 @@ export function Footer() {
             <ul className={`text-start font_xs list-unstyled Aftika_Light primary_text ${fontsm}`}>
             {data.collectionFooter.nodes?.map((user)=>(
               <li className="pb-md-1 pb-3">
-                <Link to={`/collection/${user.handle}`}>
+                <Link to={`/collections/${user.handle}`}>
                   {user.title}
                   </Link>
                 </li>
