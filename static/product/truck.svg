@@ -1,0 +1,17 @@
+<svg id="Group_12" data-name="Group 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.419" height="51.302" viewBox="0 0 77.419 51.302">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31" data-name="Rectangle 31" width="77.419" height="51.302" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11" data-name="Group 11" clip-path="url(#clip-path)">
+    <path id="Path_524" data-name="Path 524" d="M48,38.329h5.386a2.076,2.076,0,0,0,2.076-2.076V20.174a2.065,2.065,0,0,0-.229-.948L48.371,5.877A2.077,2.077,0,0,0,46.524,4.75H23.75V38.329" transform="translate(20.556 4.111)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_525" data-name="Path 525" d="M46.3,18.943,40.747,7.75h-13V18.943Z" transform="translate(24.018 6.708)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_526" data-name="Path 526" d="M12.75,22.75H40.733" transform="translate(11.035 19.69)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_527" data-name="Path 527" d="M8.212,41.791H.75V3.755A3,3,0,0,1,3.755.75h36.9a3,3,0,0,1,3.005,3.005v7.567" transform="translate(0.649 0.649)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_1" data-name="Line 1" x2="18.655" transform="translate(25.651 34.978)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_2" data-name="Line 2" x2="3.731" transform="translate(1.399 34.978)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="7.462" cy="7.462" rx="7.462" ry="7.462" transform="translate(8.861 34.978)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="7.462" cy="7.462" rx="7.462" ry="7.462" transform="translate(53.633 34.978)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

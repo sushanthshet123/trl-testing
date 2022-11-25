@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+.navbarStyle{
+    background-color: transparent;
+    z-index:99;
+    transition: 0.5s ease-in-out;
+    color:#000 !important;
+    }
+  .whiteNavbar{
+    background-color: white;
+    z-index:99;
+    transition: 0.5s ease-in-out;
+    color:#000 !important;
+  }
+  
+.header {
+  display: grid;
+  width: 100%;
+  padding: var(--size-gap) var(--size-gutter);
+  grid-template-columns: var(--size-input) 1fr min-content min-content;
+  grid-template-areas: "logo nada searchButton cartButton" "navHeader navHeader navHeader navHeader";
+  align-items: center;
+  background-color: transparent;
+}
+
+.header::after {
+  grid-area: navHeader;
+  content: "";
+  display: block;
+  width: var(--space-2xl);
+  z-index: 1;
+  align-self: stretch;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  justify-self: flex-end;
+}
+
+@media (min-width: 640px) {
+  .header {
+    grid-template-areas: "logo navHeader searchButton cartButton";
+  }
+}
+
+.logo {
+  display: flex;
+  grid-area: logo;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-secondary);
+}
+
+.logo:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.logo[aria-current="page"] {
+  color: var(--primary);
+}
+
+.nav {
+  grid-area: navHeader;
+  align-self: stretch;
+}
+
+.searchButton {
+  color: var(--text-color-secondary);
+  grid-area: searchButton;
+  width: var(--size-input);
+  height: var(--size-input);
+  display: grid;
+  place-items: center;
+}
+
+.searchButton:hover {
+  color: var(--text-color);
+}
+
+.searchButton[aria-current="page"] {
+  color: var(--primary);
+}
+
+.fontSize{
+  font-size: 11px !important;
+}
+.dropdownwidth{
+  width:350px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+}
+
+.topp{
+  top:15px;
+}

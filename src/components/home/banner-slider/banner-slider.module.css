@@ -1,0 +1,60 @@
+.container {
+    background-image: url("/home/trl-banner.jpg");
+    top:0;
+    width: 100%;
+    position: relative;
+    height:100vh;
+    background-size: cover;
+  }
+.container1 {
+    background-image: url("/home/home-banner.jpg");
+    top:0;
+    width: 100%;
+    position: relative;
+    height:100vh;
+    background-size: cover;
+  }
+  .sliderHeight{
+    height:100vh;
+  }
+  @media(max-width:576px){
+    .container, .container1{
+      height:650px;
+      background-position: center center;
+    }
+    .sliderHeight{
+      height:640px;
+    }
+    .font_mob{
+      font-size: 2.75rem;
+    }
+  
+  }
+
+  
+.blackfriday{
+  height:100vh;
+  background-color: #000;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blackfriday h1{
+  font-size:70px
+}
+
+
+@media(max-width:576px){
+  .blackfriday h1{
+    font-size:30px
+  }
+  .blackfriday{
+    height:650px
+  }
+  .blackfriday p{
+    font-size:10px
+  }
+  
+}

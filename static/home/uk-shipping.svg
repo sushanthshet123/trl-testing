@@ -1,0 +1,17 @@
+<svg id="Group_12" data-name="Group 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.594" height="55.659" viewBox="0 0 100.594 66.659">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31" data-name="Rectangle 31" width="100.594" height="66.659" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11" data-name="Group 11" clip-path="url(#clip-path)">
+    <path id="Path_524" data-name="Path 524" d="M55.261,48.381h7a2.7,2.7,0,0,0,2.7-2.7V24.791a2.684,2.684,0,0,0-.3-1.231L55.741,6.214a2.7,2.7,0,0,0-2.4-1.464H23.75V48.381" transform="translate(33.819 6.764)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_525" data-name="Path 525" d="M51.859,22.294,44.638,7.75H27.75V22.294Z" transform="translate(39.514 11.036)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_526" data-name="Path 526" d="M12.75,22.75H49.109" transform="translate(18.155 32.395)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_527" data-name="Path 527" d="M10.446,54.077H.75V4.655a3.9,3.9,0,0,1,3.9-3.9H52.6a3.9,3.9,0,0,1,3.9,3.9v9.832" transform="translate(1.068 1.068)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_1" data-name="Line 1" x2="24.239" transform="translate(33.329 45.449)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_2" data-name="Line 2" x2="4.848" transform="translate(1.818 45.449)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="9.696" cy="9.696" r="9.696" transform="translate(11.514 45.449)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="9.696" cy="9.696" r="9.696" transform="translate(69.688 45.449)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
