@@ -1,0 +1,38 @@
+.banner {
+    background-image: url("/home/legacyy.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .unmistabkablyText {
+    position: absolute;
+  top: 75%;
+  left: 8%;
+  transform: translate(-10%, -50%);
+  }
+  @media(max-width:576px){
+    .fontSize {
+      font-size: 2rem !important;
+      text-align: center;
+    }
+    
+  }
+  .fontSize {
+    font-size: 4rem;
+  }
+  
+  .paragraphText{
+      font-size:1.1rem;
+  }
+
+  @media(max-width:576px){
+    .banner{
+      height: 40vh;
+    }
+    .unmistabkablyText {
+    position: absolute;
+    top: 50%;
+    left:18%
+    }
+  }

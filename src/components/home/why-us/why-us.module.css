@@ -1,0 +1,21 @@
+.mainDiv{
+    height:200px;
+}
+.bgColor{
+    background-color:#EAE7E7;
+}
+
+@media(max-width:576px) {
+    .font_xs {
+      font-size: 0.68rem;
+    }
+  
+    .usWidth {
+      width: 40%;
+    }
+  
+    .usWidth2 {
+      width: 35%;
+    }
+  
+  }

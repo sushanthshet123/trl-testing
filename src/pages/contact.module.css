@@ -1,0 +1,31 @@
+@media(min-width:1024px){
+    .banner{
+        /* background-image: url("/contact-banner.jpg"); */
+        background-image:url('/contact-banner-updated.jpg') ;
+        min-height:100vh;
+        /* opacity: 0.6; */
+        background-position:center center;
+        background-size: cover;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        z-index: 0;
+    }
+}
+.banner{
+    background-image:url('/contact-banner-updated.jpg') ;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 0;
+}
+
+.font_sm{
+    font-size: 13px;
+}
+
+.margin_sec{
+    margin-top:9rem;
+}

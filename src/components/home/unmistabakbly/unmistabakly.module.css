@@ -1,0 +1,37 @@
+.banner {
+  background-image: url("/home/who-u-are.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.fontSize {
+  font-size: 4rem;
+}
+
+.paragraphText{
+    font-size:1.1rem;
+}
+
+@media(max-width:576px){
+  .fontSize {
+    font-size: 2.6rem;
+  }
+  
+  .banner{
+    background-image: url("/home/who-u-aree.jpg");
+    background-size:cover;
+  background-repeat: no-repeat; 
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top:60px;
+  padding-bottom: 60px;
+  }
+  
+}

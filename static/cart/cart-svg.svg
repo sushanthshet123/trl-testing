@@ -1,0 +1,32 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 22" width="17" height="22">
+	<title>cart-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h16.4v21.92h-16.4z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m0 0h16.4v21.92h-16.4z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: .9 } 
+	</style>
+	<g id="Group_27">
+		<g id="Clip-Path: Group_26" clip-path="url(#cp1)">
+			<g id="Group_26">
+				<path id="Path_543" class="s0" d="m13.8 5.4h1.4l0.8 16.1h-15.6l0.8-16.1h1.4"/>
+				<path id="Line_3" class="s0" d="m1 17.1h14.4"/>
+			</g>
+		</g>
+	</g>
+	<path id="Line_4" class="s0" d="m4.3 5.4h7.8"/>
+	<g id="Group_29">
+		<g id="Clip-Path: Group_28" clip-path="url(#cp2)">
+			<g id="Group_28">
+				<path id="Path_544" class="s0" d="m4.3 8.7v-4.5q0-0.8 0.3-1.5 0.3-0.7 0.9-1.2 0.5-0.5 1.2-0.8 0.7-0.3 1.5-0.3 0.8 0 1.5 0.3 0.7 0.3 1.2 0.8 0.6 0.5 0.9 1.2 0.3 0.7 0.3 1.5v4.5"/>
+				<path id="Line_5" class="s0" d="m3.2 8.7h2.2"/>
+				<path id="Line_6" class="s0" d="m11 8.7h2.2"/>
+			</g>
+		</g>
+	</g>
+</svg>

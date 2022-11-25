@@ -1,0 +1,15 @@
+.fontSize{
+    font-size: 4rem;
+}
+.TextColor{
+    color:#CB2F3D;
+}
+@media(max-width:576px){
+    .fontSize{
+        font-size: 3rem;
+    }
+    .centeredarrow{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
